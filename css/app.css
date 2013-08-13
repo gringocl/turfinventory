@@ -1,0 +1,16 @@
+/*.active {*/
+  color: #ffffff;
+  background-color: #080808;
+}
+
+/*.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent; !important
+}*/
+
+/*.navbar-inverse .navbar-brand .active < a {
+  color: #ffffff;
+  background-color: transparent;
+}
+*/

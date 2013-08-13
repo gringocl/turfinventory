@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <title>Sales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/app.css" rel="stylesheet" media="screen">
+
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="navbar navbar-inverse active">
+        <div class="container">
+          <a class="navbar-brand active" href="index.html">Turf Fertilizer</a>
+            <div class="nav-collapse collapse navbar-responsive-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="customers.html">Customers</a></li>
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sales <b class="caret active"></b>
+                    </a>
+                      <ul class="dropdown-menu">
+                        <li><a href="sales.html">View Sales</a></li>
+                        <li><a href="#">New Sale</a></li>
+                        <li><a href="#">Update Sale</a></li>
+                        <li><a href="#">Remove Sale</a></li>
+                      </ul>
+                </li>
+
+              </ul>
+              <p class="navbar-text pull-right">Signed in as <a href="#" class="navbar-link">Miles Starkenburg</a></p>
+              <form class="navbar-form pull-right">
+                <input type="text" class="form-control" style="width: 200px;">
+                <button type="submit" class="btn btn-default">Search</button>
+              </form>
+            </div>
+        </div>
+      </div>
+
+      <!-- </div> -->
+
+      <header>
+        <H2>Sales</H2>
+      </header>
+
+      <table class="table table-hover">
+        <tr>
+          <th>Date</th>
+          <th>Order #</th>
+          <th>Facility</th>
+          <th>Total</th>
+          <th>Status</th>
+        </tr>
+        <tbody >
+        <tr>
+          <td>8.01.2013</td>
+          <td>SR035325</td>
+          <td>Wing Point Golf &amp; Country Club</td>
+          <td>$1023</td>
+          <td>Unpaid</td>
+        </tr>
+        <tr>
+          <td>7.23.2013</td>
+          <td>SR035324</td>
+          <td>Chambers Bay Golf Course</td>
+          <td>$635</td>
+          <td>Unpaid</td>
+        </tr>
+        <tr>
+          <td>7.22.2013</td>
+          <td>SR035323</td>
+          <td>Trophy Lake Golf &amp; Casting Club</td>
+          <td>$2457</td>
+          <td>Paid</td>
+        </tr>
+        <tr>
+          <td>6.22.2013</td>
+          <td>SR035322</td>
+          <td>Kitsap Golf &amp; Country Club</td>
+          <td>$1624</td>
+          <td>Paid</td>
+        </tr>
+        <tr class="danger">
+          <td>5.18.2013</td>
+          <td>SR035321</td>
+          <td>Wing Point Golf &amp; Country Club</td>
+          <td>$478</td>
+          <td>Unpaid</td>
+        </tr>
+        </tbody>
+        <tr></tr>
+      </table>
+
+      <footer>
+        <p>&copy; 2013 Turf Fertilizer. All Rights Reserved.</p>
+      </footer>
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    <script src="js/respond.js"></script>
+    </div>
+  </body>
+</html>
